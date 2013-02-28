@@ -10,4 +10,7 @@
 
 @interface BIDNameAndColorCell : UITableViewCell
 
+@property (copy, nonatomic) NSString *name;
+@property (copy, nonatomic) NSString *color;
+
 @end
